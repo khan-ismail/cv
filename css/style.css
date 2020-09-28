@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Patua+One&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    position: relative;
+}
+
+.heading{
+    width: 100vw;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.name-heading{
+    font-size: 100px;
+    color: #dd7732;
+    text-shadow: 0 0 3px #000;
+    font-weight: bold;
+    font-family: "Dancing Script", 'Courier New', Courier, monospace;
+}
+
+h2{
+    font-family: "Patua One";
+}
+
+h3{
+    font-family: "crete round";
+}
+
+.my-work-heading{
+    font-size: 30px;
+    color: #dd7732;
+    text-shadow: 0 0 2px #000;
+    font-weight: bold;
+    font-family: "Satisfy", 'Courier New', Courier, monospace;
+}
+.top-container{
+    /* background-color: #e0ece471; */
+    background-image: 
+        linear-gradient(rgba(82, 82, 82, 0.7), rgba(82, 82, 82, 0.7)), 
+        url('../images/background1.jpg');
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.mylogo{
+    width: 50px;
+}
+
+.header{
+    margin: 0;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(6,92,111,0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+
+.mylogo{
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.nav_links li a{
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.5s ease 0s;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Lemonada";
+}
+
+.nav_links li a:hover{
+    color: #dd7732;
+    text-shadow: 1px 0 2px #000;
+}
+
+.icon{
+    width: 100px;
+    padding: 20px;
+}
+
+.my-pic{
+    width: 100px;
+}
+
+.myself{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #065c6f;
+    text-shadow: 0 0 1px #bdbdbd;
+    line-height: 1.3;
+}
+
+.skill-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skill-row{
+    padding: 40px 20px;
+    margin: auto;
+    width: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #065c6f;
+    text-shadow: 0 0 1px #bdbdbd;
+}
+
+
+.programming-images{
+    background-color: #e0ece4;
+    padding: 100px 0;
+    margin-top: 20px;
+}
+
+.icon:hover{
+    transition: all 0.5s ease 0s;
+    box-shadow: 0 0 1px #065c6f;
+    border-radius: 10%;
+    background-color: #ecf4f3;
+    cursor: pointer;
+}
+
+.pro-heading{
+    padding-bottom: 30px;
+    color: #065c6f;
+}
+
+.bottom-container{
+    background-color: #64958f;
+    padding: 20px 0;
+    color: #fff;
+    font-family: "crete Round";
+    font-size: 17px;
+}
+
+.bottom-container a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.skill-style{
+    width: 150px;
+    cursor: pointer;
+}
+
+.skill-divider{
+    border-style: none;
+    border-style: dotted none none;
+    border-width: 6px;
+    width: 10%;
+    border-color: #bdbdbd;
+    margin: 30px auto;
+    display: block;   
+}
+
+.profile{
+    background-color: #e0ece4;
+    padding: 20px 0px;
+}
+
+.skills{
+    background-color: #ecf4f3;
+    padding: 30px 0px;
+}
+
+.contact-me{
+    background-color: #e0ece4;
+    padding: 30px 0;
+    color: #fff;
+    text-shadow: 0px 0px 1px black;
+}
+
+.about-me{
+    background-color: #ecf4f3;
+}
+
+.info1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-design-img{
+    width: 110px;
+    padding: 50px;
+}
+
+.info-detail1{
+    width: 25%;
+    display: inline-block;
+    padding-left: 30px;
+    text-align: center;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #065c6f;
+    text-shadow: 0 0 1px #bdbdbd;
+    line-height: 1.3;
+}
+
+.info2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon{
+    width: 20px;
+    padding: 0px 2px;
+    padding: 7px;
+}
+
+.footer-icon:hover{
+    border-radius: 5px;
+    transition: all 0.5s ease 0s;
+    background-color: #e0ece4;
+
+}
+
+.details{
+    text-align: left;
+    display: inline-block;
+}
+
+.contact{
+    color: #065c6f; 
+    text-shadow: 0 0 1px #bdbdbd; 
+}
+
+.touch-me{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #065c6f;
+    text-shadow: 0 0 1px #bdbdbd;
+}
+
+.contact-div{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-div:hover{
+    box-shadow: 0 0 2px #065c6f;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    background: #ecf4f3;
+}
+
+.contact-icon{
+    width: 15px;
+    padding-right: 10px;
+}
+
+.copyright{
+    padding: 20px;
+}
